@@ -1,0 +1,111 @@
+#title {
+  background-color: #121211;
+  color: #d1d1cf;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #121211;
+  justify-content: space-between;
+  width: 100%
+}
+
+.flex-container > div{
+  background-color: #678c5b;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+#login {
+  color: #d1d1cf;
+  text-decoration: none;
+}
+
+.flex-container2 {
+  display: flex;
+  background-color: #1a2154;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  border-style: solid;
+  border-color: #d1d1cf;
+  border-width: thin;
+}
+
+.flex-container2 > div {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: small;
+}
+
+.top-link {
+  color: #d1d1cf;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.middle-container {
+  display: flex;
+  height: 600px;
+  background-image: url('../images/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.middle-container > div {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 20px;
+  font-size: x-large;
+  color: #f0f0f5;
+  font-weight: bold;
+}
+
+.middle-text {
+  background-color: #121211;
+  color: #f0f0f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  background-color: #dadaf5;
+  flex-direction: row;
+}
+
+.bottom-container > img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  vertical-align: bottom;
+  align-items: flex-start;
+  padding: 75px 30px 5px 75px;
+}
+
+.bottom-container > h5 {
+  color : #121211;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  background-color: #121211;
+}
+
+.footer > div {
+  color: #f0f0f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  padding: 10px;
+}
